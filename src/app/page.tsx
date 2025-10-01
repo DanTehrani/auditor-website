@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 px-6">
       <Header />
+
       <div className="flex flex-col items-center justify-center mt-[240px]">
         <div className="max-w-2xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -15,7 +16,8 @@ export default function Home() {
           </p>
           <div className="mt-6 flex justify-center gap-4">
             <a
-              href="#"
+              href="https://plucky-crustacean-22a.notion.site/27f8a1e8bd7480d19e6eddd152848bdd?pvs=105"
+              target="_blank"
               className="rounded-xl font-bold bg-black px-6 py-3 text-white shadow hover:bg-gray-800 transition"
             >
               Join waitlist
