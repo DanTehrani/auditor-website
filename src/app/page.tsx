@@ -1,18 +1,18 @@
 // app/page.tsx
-import Header from "@/components/Header";
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50 px-6">
+    <main className="bg-gradient min-h-screen bg-gray-50 px-6">
       <Header />
 
-      <div className="flex flex-col items-center justify-center mt-[240px]">
+      <div className="flex flex-col items-center justify-center mt-[160px]">
         <div className="max-w-2xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             The end of manual audits
           </h1>
           <p className="mt-4 text-lg text-gray-600">
-            Faster, cheaper, and smarter AI audits <br /> for  smart contracts
+            Faster, cheaper, and smarter AI audits <br /> for smart contracts
           </p>
           <div className="mt-6 flex justify-center gap-4">
             <a
